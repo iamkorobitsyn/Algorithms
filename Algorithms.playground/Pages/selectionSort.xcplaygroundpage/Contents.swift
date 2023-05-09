@@ -7,7 +7,7 @@ func selectionSort(_ list: inout [Int]) -> [Int] {
     for i in 0..<list.count {
         var min = i
         for j in i + 1..<list.count {
-            if list[j] < list[i] {
+            if list[j] < list[min] {
                 min = j
             }
         }
