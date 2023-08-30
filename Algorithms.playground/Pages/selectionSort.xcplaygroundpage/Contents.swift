@@ -1,7 +1,5 @@
 // selectionSort - Сортировка выбором
 
-var array: [Int] = [1, 12, 3, 59, 120, 4]
-
 func selectionSort(_ list: inout [Int]) -> [Int] {
     
     for i in 0..<list.count {
@@ -20,4 +18,3 @@ func selectionSort(_ list: inout [Int]) -> [Int] {
     return list
 }
 
-print(selectionSort(&array))

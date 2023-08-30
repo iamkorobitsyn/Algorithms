@@ -4,5 +4,6 @@
         <page name='bubbleSort'/>
         <page name='selectionSort'/>
         <page name='quickSort'/>
+        <page name='randomAlgorithm'/>
     </pages>
 </playground>

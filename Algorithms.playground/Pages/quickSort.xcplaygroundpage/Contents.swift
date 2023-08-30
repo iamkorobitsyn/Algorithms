@@ -11,3 +11,4 @@ func quickSort(_ list: [Int]) -> [Int] {
     
     return quickSort(less) + mid + quickSort(greater)
 }
+
